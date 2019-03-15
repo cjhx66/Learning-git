@@ -1,0 +1,290 @@
+.content-img {
+    width: 14.1%;
+}
+.content-switer {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.content-switer img {
+    height: 100%;
+}
+
+.swiper-left {
+    float: left;
+}
+
+.swiper-right {
+    float: right;
+}
+
+.carousel {
+    position: relative;
+    float: left;
+    width: 71.8%;
+    margin: 0 auto;
+    /*height: 500px;*/
+    height: 100%;
+    overflow: hidden;
+}
+
+.tu {
+    /*width: 980px;*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.carousel img {
+    height: 100%;
+    float: left;
+}
+
+.dot {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 100;
+}
+
+.dot span {
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    border-radius: 50%;
+    background: white;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.page {
+    position: absolute;
+    top: 45%;
+    left:9%;
+    z-index: 101;
+}
+
+.page .page-pre, .page-next {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    opacity: 0.7;
+}
+
+.page .page-next {
+    float: right;
+    background: url("../img/icon_youhua.png") no-repeat #B1B2B2 center;
+}
+
+.page .page-pre {
+    background: url("../img/icon_zuohua.png") no-repeat #B1B2B2 center;
+}
+
+.content-center {
+    width: 71.8%;
+    margin: 0 auto;
+}
+
+.content-center-p {
+    font-size: 24px;
+    color: #56b556;
+    height: 60px;
+    line-height: 60px;
+}
+
+.content-center-p .more {
+    float: right;
+}
+.star-center{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.star-center-last{
+    margin-bottom: 0;
+}
+.star-center-c {
+    width: 24%;
+    padding-right: 1.3%;
+    vertical-align: top;
+    float: left;
+}
+
+.star-center-c-right {
+    padding: 0;
+}
+
+.star-center-c img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.star-center-c p {
+    color: #333333;
+    font-size: 16px;
+    height: 40px;
+    background: #eeeeee;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.agriculture{
+    margin-bottom: 10px;
+}
+.agriculture-last{
+    margin: 0;
+}
+.agriculture .agriculture-c {
+    border: 1px solid #d9d9d9;
+    margin-right: 0.98%;
+    width: 19%;
+    float: left;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.agriculture .agriculture-c-right {
+    margin: 0;
+}
+
+.agriculture p {
+    font-size: 14px;
+    color: #333333;
+    line-height: 25px;
+    padding: 0 10px;
+}
+
+.agriculture .agriculture-c img {
+    width: 100%;
+    height: 100%;
+}
+
+.agriculture .price {
+    color: #F93131;
+}
+
+.agriculture .time {
+    font-size: 12px;
+    float: right;
+}
+
+.agriculture .address {
+    line-height: 20px;
+    padding-top: 5px;
+}
+
+.artel {
+    padding-top: 10px;
+}
+
+.artel .left {
+    float: left;
+    width: 58%;
+}
+
+.artel p {
+    color: #333333;
+}
+
+.artel .artel-title {
+    font-size: 18px;
+    color: #56b556;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 5px solid #F4F4F4;
+}
+
+.artel .artel-title span:last-child {
+    float: right;
+}
+
+.artel .artel-left-center {
+    padding: 20px 0 10px 0;
+    height: 150px;
+    border-bottom: 1px dashed #cccccc;
+    cursor: pointer;
+}
+
+.artel .artel-left-center img {
+    float: left;
+    /*width: 155px;*/
+    width:28%;
+    height:100%;
+    display: inline-block;
+}
+
+.artel .artel-left-center .artel-left-right {
+    width: 70%;
+    float: left;
+    padding-left: 2%;
+}
+
+.artel .artel-left-right .artel-left-right-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.artel .artel-left-right .artel-left-right-content {
+    position: relative;
+    line-height: 22px;
+    overflow: hidden;
+    margin: 10px 0 34px 0;
+    font-size: 14px;
+}
+.artel .artel-left-right .info {
+    font-size: 12px;
+    font-family: "AdobeHeitiStd-Regular";
+    color: #ababab;
+}
+
+.artel .artel-left-right .info span:last-child {
+    float: right;
+}
+
+.artel .right {
+    float: right;
+    width: 38%;
+}
+
+.artel-right-content {
+    margin-top: 20px;
+    border: 1px solid #f4f4f4;
+}
+
+.artel-right-content .artel-right-c-c {
+    margin: 0 15px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    border-bottom: 1px dotted #cccccc;
+    cursor: pointer;
+}
+
+.artel-right-content .artel-right-c-c:first-child {
+    padding-top: 5px;
+}
+
+.artel-right-content .artel-right-c-c:last-child {
+    border: 0;
+}
+
+.artel-right-content .artel-right-c-c p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.artel-right-content .artel-right-c-c p:last-child {
+    font-size: 14px;
+}
+
+.artel-right-content .artel-right-c-c p:last-child span:last-child {
+    float: right;
+}
+
+.artel-right-content .artel-right-c-c-right {
+    border: 0;
+}
+@media screen and (max-width: 1280px) {
+    .agriculture .agriculture-c{
+        margin-right: 7.2px;
+    }
+}

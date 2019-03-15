@@ -1,0 +1,43 @@
+/*∆Û“µΩÈ…‹*/
+/*.content-title{*/
+    /*margin:20px 0;*/
+/*}*/
+
+.company-center {
+    border: 1px solid #eeeeee;
+    height: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+.cLast {
+    margin: 0;
+}
+
+.company-center img {
+    width: 34%;
+    max-width: 336px;
+    height: 100%;
+    float: left;
+}
+
+.company-center .companyC-right {
+    float: left;
+    width: 63%;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.companyC-right h2 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: AdobeHeitiStd-Regular;
+}
+
+.companyC-right p {
+    line-height: 35px;
+    font-size: 16px;
+}

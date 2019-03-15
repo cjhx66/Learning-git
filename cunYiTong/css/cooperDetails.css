@@ -1,0 +1,242 @@
+.part-left {
+    margin-right: 5%;
+    float: left;
+    width: 75%;
+    margin-top: 35px;
+    position: relative;
+}
+
+.part-left .slide {
+    width: 100%;
+    background: #f7f7f7;
+    height: 60px;
+}
+
+.part-left .slide li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.part-left .slide .active {
+    background-color: #65B556;
+    color: white;
+}
+
+.part-left .slideContent {
+    width: 100%;
+}
+.part-left .terms{
+    margin-top: 10px;
+}
+.part-left .terms .terms-content{
+    margin: 20px 0;
+}
+.part-left .terms .terms-content:last-child{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.part-left .terms p {
+    font-size: 14px;
+    padding-top: 15px;
+}
+.part-left .member-content:first-child{
+    padding: 30px 0 20px;
+}
+.part-left .member-content {
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.part-left .member-content img {
+    float: left;
+}
+
+.part-left .member-content .member-right {
+    width: 81%;
+    float: right;
+}
+
+.part-left .member-content p {
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+
+.part-left .member-content p:last-child {
+    padding: 0;
+}
+
+.part-left .member-content p:first-child {
+    font-weight: bold;
+}
+
+.part-left .member-content .member-right i {
+    display: inline-block;
+    width: 28px;
+    height: 22px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.part-left .member-content .member-right .man {
+    background: url("../img/icon_nan.png") no-repeat;
+}
+
+.part-left .member-content .member-right .girl {
+    background: url("../img/icon_nv.png") no-repeat;
+}
+
+.part-left .paging {
+    margin: 0;
+}
+.part-left .paging-min{
+    position: absolute;
+    bottom: 0;
+}
+
+.leaveCenter {
+    border: 1px solid #eeeeee;
+    padding: 10px 0 10px 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.leaveCenter .lC-left, .lC-right {
+    float: left;
+    height: 100%;
+}
+
+.leaveCenter .lC-left {
+    width: 17%;
+    font-size: 16px;
+}
+
+.leaveCenter .lC-left i {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    background: url("../img/penper.png") no-repeat;
+    margin-right: 5px;
+    background-size: 100%;
+}
+
+.leaveCenter .lC-left span {
+    vertical-align: middle;
+}
+
+.leaveCenter .lC-right {
+    width: 60%;
+}
+
+.leaveCenter .lC-right .font {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.leaveCenter .lC-right .time {
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+}
+
+.leaveCenter .lC-right i {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 15px 20px 0 0;
+}
+
+.leaveCenter .lC-right i:nth-child(1) {
+    background: url("../img/liuYe1.png") no-repeat;
+    background-size: 100%;
+}
+
+.leaveCenter .lC-right i:nth-child(2) {
+    background: url("../img/liuYe2.png") no-repeat;
+    background-size: 100%;
+
+}
+
+.leaveCenter .lC-right i:nth-child(3) {
+    background: url("../img/liuYe3.png") no-repeat;
+    background-size: 100%;
+}
+
+.leaveCenter .lC-right i:nth-child(4) {
+    background: url("../img/liuYe4.png") no-repeat;
+    background-size: 100%;
+
+}
+
+.leaveCenter .hand{
+    /*float: right;*/
+    position: absolute;
+    right: 30px;
+    font-size: 14px;
+    top:60px;
+}
+.leaveCenter .hand i{
+    display: inline-block;
+    width:25px;
+    height:25px;
+    background: url("../img/hezuoshe_dianzan.png") no-repeat;
+    padding-right: 8px;
+}
+.leaveCenter .hand .active{
+    background: url("../img/hezuoshe_dianzan(hong).png") no-repeat;
+}
+.part-right {
+    width: 20%;
+    float: left;
+}
+
+.part-right .agriculture-c .commodity {
+    line-height: 30px;
+}
+
+.part-right .agriculture-c .name {
+    padding: 0 10px 10px;
+}
+
+@media screen and (max-width: 1920px) {
+    .part-left{
+        min-height: 1180px;
+    }
+    .part-left .member-content .member-right {
+        width: 86%;
+    }
+
+    .part-left .paging {
+        /*padding-left: 11%;*/
+        width:70%;
+        padding: 35px 15% 0;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .part-left{
+        min-height: 980px;
+    }
+    .part-left .member-content .member-right {
+        width: 81%;
+    }
+
+    .part-left .paging {
+        width: 85%;
+        padding: 35px 7.5% 0;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .part-left .member-content .member-right {
+        width: 80%;
+    }
+
+    .part-left .paging {
+        width:88%;
+        padding: 35px 6.5% 0;
+    }
+}

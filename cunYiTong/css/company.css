@@ -1,0 +1,186 @@
+.content {
+    width: 71.8%;
+    margin: 0 auto;
+}
+
+.daoHang {
+    padding: 5px 0 30px 15px;
+}
+
+.daoHang a {
+    color: black;
+}
+
+.daoHang .active {
+    color: #65B556;
+}
+
+.content-title{
+margin:20px 0;
+}
+
+ .company-center {
+    border: 1px solid #eeeeee;
+    height: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+ .cLast {
+    margin: 0;
+}
+
+.company-center img {
+    width: 34%;
+    max-width: 336px;
+    height: 100%;
+    float: left;
+}
+
+.company-center .companyC-right {
+    float: left;
+    width: 63%;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.companyC-right h2 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: AdobeHeitiStd-Regular;
+}
+
+.companyC-right p {
+    line-height: 35px;
+    font-size: 16px;
+}
+
+/*产品*/
+.agriculture {
+    margin-bottom: 10px;
+}
+
+.agriculture-last {
+    margin: 0;
+}
+
+.agriculture .agriculture-c {
+    border: 1px solid #d9d9d9;
+    margin-right: 0.98%;
+    width: 19%;
+    float: left;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.agriculture .agriculture-c-right {
+    margin: 0;
+}
+
+.agriculture p {
+    font-size: 14px;
+    color: #333333;
+    line-height: 25px;
+    padding: 0 10px;
+}
+
+.agriculture .agriculture-c img {
+    width: 100%;
+    height: 100%;
+}
+
+.agriculture .price {
+    color: #F93131;
+}
+
+.agriculture .time {
+    font-size: 12px;
+    float: right;
+}
+
+.agriculture .address {
+    line-height: 20px;
+    padding-top: 5px;
+}
+
+/*分页*/
+.paging {
+    width: 65%;
+    margin: 35px auto 0;
+    font-size: 14px;
+    height: 35px;
+}
+
+.paging .page, .num {
+    border: 1px solid #cccccc;
+    padding: 1% 2%;
+}
+
+.paging .active {
+    border: 0;
+    color: red
+}
+
+.paging .act {
+    border: 0;
+}
+
+.paging .pagination {
+    /*padding-left: 20px;*/
+    padding-left: 1%;
+}
+
+.paging .small {
+    font-size: 12px;
+}
+
+.paging .small .num {
+    font-size: 14px;
+}
+
+.paging a {
+    display: inline-block;
+    border: 1px solid #cccccc;
+    width: 8%;
+    height: 96%;
+    margin-left: 1%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 32px;
+    color: black;
+}
+
+.paging .click {
+    background: #65b55b;
+    color: white;
+    border: 0;
+}
+
+@media screen and (max-width: 1920px) {
+    /*右边的介绍*/
+    .company-center .companyC-right {
+        width: 74.1%;
+    }
+    .paging {
+        width: 44%;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .company-center .companyC-right {
+        width: 63%;
+    }
+    /*分页*/
+    .paging {
+        width: 63%;
+    }
+}
+@media screen and (max-width:1280px) {
+    /*分页*/
+    .paging {
+        width: 65%;
+    }
+}

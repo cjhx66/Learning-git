@@ -1,0 +1,60 @@
+
+header {
+    height: 60px;
+    background: #65b55b;
+    line-height: 60px;
+    color:white;
+}
+
+.nav {
+    width: 71.8%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header-title {
+    font-size: 36px;
+    float: left;
+    /*color: white;*/
+}
+
+.header-nav {
+    float: left;
+    padding-left: 40px;
+    height: 100%;
+    width: 65%;
+}
+
+.header-nav li {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.header-nav .active {
+    background: #5CA54F;
+}
+
+.header-nav li a {
+    color: white;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.header-location {
+    float: right;
+    color:white;
+}
+
+.header-location i {
+    background: url("../img/sy_weizhi_icon.png");
+    display: inline-block;
+    width: 21px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.header-location .address {
+    padding-left: 10px;
+}

@@ -1,0 +1,79 @@
+/*∑÷“≥*/
+.paging {
+    width: 65%;
+    margin: 35px auto 0;
+    font-size: 14px;
+    height: 35px;
+}
+
+.paging .page, .num {
+    border: 1px solid #cccccc;
+    padding: 1% 2%;
+}
+
+.paging .active {
+    border: 0;
+    color: red
+}
+
+.paging .act {
+    border: 0;
+}
+
+.paging .pagination {
+    /*padding-left: 20px;*/
+    padding-left: 1%;
+}
+
+.paging .small {
+    font-size: 12px;
+}
+
+.paging .small .num {
+    font-size: 14px;
+}
+
+.paging a {
+    display: inline-block;
+    border: 1px solid #cccccc;
+    width: 8%;
+    height: 96%;
+    margin-left: 1%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 32px;
+    color: black;
+}
+
+.paging .click {
+    background: #65b55b;
+    color: white;
+    border: 0;
+}
+
+@media screen and (max-width: 1920px) {
+    /*”“±ﬂµƒΩÈ…‹*/
+    .company-center .companyC-right {
+        width: 74.1%;
+    }
+    .paging {
+        width: 44%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .company-center .companyC-right {
+        width: 63%;
+    }
+    /*∑÷“≥*/
+    .paging {
+        width: 63%;
+    }
+}
+@media screen and (max-width:1280px) {
+    /*∑÷“≥*/
+    .paging {
+        width: 65%;
+    }
+}

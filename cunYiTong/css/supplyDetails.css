@@ -1,0 +1,193 @@
+.content {
+    width: 71.8%;
+    margin: 0 auto;
+}
+/*导航*/
+.daoHang {
+    padding: 5px 0 30px 15px;
+}
+
+.daoHang a {
+    color: black;
+}
+
+.daoHang .active {
+    color: #65B556;
+}
+/*文字招聘*/
+.supply-left{
+    width:58%;
+    float: left;
+}
+.supply-right{
+    width:38%;
+    float: right;
+}
+.supply-left h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.supply-left p{
+    line-height: 30px;
+    font-size: 16px;
+    color:#666;
+}
+.supply-left .sl-top{
+    padding-top: 25px;
+}
+.supply-left .sl-right{
+    padding-top: 20px;
+    float: right;
+}
+.supply-left .sl-right span{
+    padding-left: 30px;
+}
+.supply-left .supply-left-title{
+    color:#333333;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: "PingFangSC-Regular";
+    border-bottom: 3px solid #cccccc;
+}
+
+
+/*评论*/
+.leave-content {
+    /*margin-top: 80px;*/
+}
+.leaveCenter {
+    border: 1px solid #eeeeee;
+    padding: 10px 0 10px 10px;
+    box-sizing: border-box;
+}
+
+.leaveCenter .lC-left, .lC-right {
+    float: left;
+    height: 100%;
+}
+
+.leaveCenter .lC-left {
+    width: 22%;
+    /*margin-left: 10px;*/
+}
+
+.leaveCenter .lC-left i {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    background: url("../img/penper.png") no-repeat center;
+    background-size: 100% 100%;
+    margin-right: 5px;
+}
+
+.leaveCenter .lC-left span {
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.leaveCenter .lC-right {
+    width: 77%;
+}
+
+.leaveCenter .lC-right .font {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.leaveCenter .lC-right .time {
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+}
+
+.leaveCenter .lC-right i {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    margin: 15px 15px 0 0;
+}
+
+.leaveCenter .lC-right i:nth-child(1) {
+    background: url("../img/liuYe1.png") no-repeat;
+    background-size: 100%;
+
+}
+
+.leaveCenter .lC-right i:nth-child(2) {
+    background: url("../img/liuYe2.png") no-repeat;
+    background-size: 100%;
+
+}
+
+.leaveCenter .lC-right i:nth-child(3) {
+    background: url("../img/liuYe3.png") no-repeat;
+    background-size: 100%;
+
+}
+
+.leaveCenter .lC-right i:nth-child(4) {
+    background: url("../img/liuYe4.png") no-repeat;
+    background-size: 100%;
+}
+
+/*同类推荐*/
+
+.artel-right-content {
+    margin-top: 10px;
+    border: 1px solid #eeeeee;
+}
+
+.artel-right-content .artel-right-c-c {
+    margin: 0 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #cccccc;
+}
+
+.artel-right-content .artel-right-c-c:first-child {
+    padding-top: 5px;
+}
+
+.artel-right-content .artel-right-c-c:last-child {
+    border: 0;
+}
+
+.artel-right-content .artel-right-c-c p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.artel-right-content .artel-right-c-c p:last-child {
+    font-size: 14px;
+}
+
+.artel-right-content .artel-right-c-c p:last-child span:last-child {
+    float: right;
+}
+
+.artel-right-content .artel-right-c-c-right {
+    border: 0;
+}
+
+@media screen and (max-width: 1920px) {
+    .leaveCenter .lC-left{
+        width: 16%;
+    }
+    .leaveCenter .lC-right{
+        width: 82%;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .leaveCenter .lC-left{
+        width: 22%;
+    }
+    .leaveCenter .lC-right{
+        width: 77%;
+    }
+}

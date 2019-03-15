@@ -1,0 +1,110 @@
+
+.search .search-left .active{
+    color:#65B556;
+}
+
+.center-left{
+    width:76%;
+    float: left;
+    margin-right: 4%;
+}
+.center-right{
+    width:20%;
+    float: left;
+}
+
+.center-left .active,.center-left .active .time{
+    color:#65B556;
+}
+
+/*合作社标题*/
+.artel-left-center {
+    padding: 20px 0;
+    border-bottom: 1px dashed #cccccc;
+    position: relative;
+    cursor: pointer;
+}
+
+.artel-left-center img {
+    float: left;
+    /*width: 155px;*/
+    width:28%;
+    height:100%;
+    display: inline-block;
+}
+
+.artel-left-center .artel-left-right {
+    width: 70%;
+    float: left;
+    padding-left: 2%;
+}
+
+.artel-left-right .artel-left-right-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.artel-left-right .artel-left-right-content {
+    position: relative;
+    line-height: 22px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.artel-left-right .info {
+    font-size: 12px;
+    /*font-family: "AdobeHeitiStd-Regular";*/
+    position: absolute;
+    bottom: 20px;
+    width:70%;
+}
+
+.artel-left-right .time {
+    padding-left: 30%;
+    color: #ababab;
+}
+
+.center-right h1{
+    font-size: 28px;
+    text-align: center;
+    padding: 35px 0 10px;
+}
+.center-right .agriculture-c{
+    width:100%;
+    margin: 15px auto 0;
+    border: 1px solid #cccccc;
+
+}
+.center-right .agriculture-c img{
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    vertical-align: middle;
+}
+.center-right .agriculture-c .name{
+    font-size: 14px;
+    padding: 5px 10px 0;
+    line-height: 18px;
+}
+.center-right .agriculture-c .commodity{
+    color:red;
+    line-height: 50px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+@media screen and (max-width: 1920px) {
+    .search .search-left span {
+        margin-right: 8%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .search .search-left span {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .search .search-left span {
+        margin-right: 4%;
+    }
+}

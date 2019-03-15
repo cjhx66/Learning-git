@@ -1,0 +1,66 @@
+
+.leaveCenter {
+    border: 1px solid #eeeeee;
+    padding: 10px 0 10px 10px;
+    box-sizing: border-box;
+}
+
+.leaveCenter .lC-left, .lC-right {
+    float: left;
+    height: 100%;
+}
+
+.leaveCenter .lC-left {
+    width: 19%;
+}
+
+.leaveCenter .lC-left i {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    vertical-align: middle;
+    background: url("../img/penper.png") no-repeat;
+    margin-right: 5px;
+}
+
+.leaveCenter .lC-left span {
+    vertical-align: middle;
+}
+
+.leaveCenter .lC-right {
+    width: 79%;
+}
+
+.leaveCenter .lC-right .font {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.leaveCenter .lC-right .time {
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+}
+
+.leaveCenter .lC-right i {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    margin: 15px 20px 0 0;
+}
+
+.leaveCenter .lC-right i:nth-child(1) {
+    background: url("../img/liuYe1.png") no-repeat;
+}
+
+.leaveCenter .lC-right i:nth-child(2) {
+    background: url("../img/liuYe2.png") no-repeat;
+}
+
+.leaveCenter .lC-right i:nth-child(3) {
+    background: url("../img/liuYe3.png") no-repeat;
+}
+
+.leaveCenter .lC-right i:nth-child(4) {
+    background: url("../img/liuYe4.png") no-repeat;
+}

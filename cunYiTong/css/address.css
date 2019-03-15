@@ -1,0 +1,120 @@
+.content {
+    width: 71.8%;
+    margin: 0 auto;
+}
+
+.ok {
+    width: 100%;
+    height: 60px;
+}
+
+.pro .city a:hover {
+    color:blue;
+}
+
+.ok_address {
+    line-height: 60px;
+    font-size: 14px;
+    float: right;
+}
+
+.ok_address span a {
+    display: inline-block;
+    height: 40px;
+    width: 80px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+    background: #64B556;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.ok_address span .react {
+    margin: 0 40px 0 80px;
+    background: #9a9a9a;
+}
+
+.outbox {
+    font-size: 16px;
+    /*font-weight: bold;*/
+}
+
+.pro {
+    background: #eeeeee;
+    padding: 5px 15px;
+}
+
+.pro .proTitle {
+    float: left;
+    padding-right: 9px;
+    padding-top: 5px;
+}
+
+.pro .city {
+    float: left;
+    width: 95%;
+    position: relative;
+}
+
+.pro .city li {
+    float: left;
+    padding: 5px 10px;
+}
+
+.pro .city .active a {
+    color: #69B75B;
+}
+
+.pro .city .cityCenter {
+    position: absolute;
+    top: 40px;
+    background: #f9f9f9;
+    width: 93.5%;
+    padding: 10px 5px;
+    border: 1px solid #cccccc;
+}
+
+.pro .city .cityCenter .san {
+    width: 0;
+    height: 0;
+    padding: 0;
+    position: absolute;
+    left: 18px;
+    top: -15.5px;
+    z-index: 2;
+    border: 8px solid #f9f9f9;
+    border-color: transparent transparent #f9f9f9 transparent;
+}
+
+.pro .city .cityCenter .sanBie {
+    width: 0;
+    height: 0;
+    padding: 0;
+    position: absolute;
+    left: 18px;
+    top: -17px;
+    z-index: 1;
+    border: 8px solid #f9f9f9;
+    border-color: transparent transparent #ccc transparent;
+}
+
+.pro .city .countyCenter {
+    position: absolute;
+    width: 95.5%;
+    top: 50px;
+    background: #e5e5e5;
+    padding: 10px 5px;
+    margin-left: 10px;
+}
+
+.pro .city .countyCenter .san1 {
+    width: 0;
+    height: 0;
+    padding: 0;
+    position: absolute;
+    left: 18px;
+    top: -15.5px;
+    border: 8px solid #e5e5e5;
+    border-color: transparent transparent #e5e5e5 transparent;
+}

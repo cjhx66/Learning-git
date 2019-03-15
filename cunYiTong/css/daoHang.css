@@ -1,0 +1,17 @@
+/*µ¼º½*/
+.content {
+    width: 71.8%;
+    margin: 0 auto;
+}
+
+.daoHang {
+    padding: 5px 0 30px 15px;
+}
+
+.daoHang a {
+    color: black;
+}
+
+.daoHang .active {
+    color: #65B556;
+}

@@ -1,0 +1,72 @@
+.search .search-left .active{
+    color:#65B556;
+}
+
+.agriculture {
+    margin-bottom: 10px;
+}
+
+.agriculture-last {
+    margin: 0;
+}
+
+.agriculture .agriculture-c {
+    border: 1px solid #d9d9d9;
+    margin-right: 0.98%;
+    width: 19%;
+    float: left;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.agriculture .agriculture-c-right {
+    margin: 0;
+}
+
+.agriculture p {
+    font-size: 14px;
+    color: #333333;
+    line-height: 25px;
+    padding: 0 10px;
+}
+
+.agriculture .agriculture-c img {
+    width: 100%;
+    height: 100%;
+}
+
+.agriculture .price {
+    color: #F93131;
+}
+
+.agriculture .time {
+    font-size: 12px;
+    float: right;
+}
+
+.agriculture .address {
+    line-height: 20px;
+    padding-top: 5px;
+}
+
+@media screen and (max-width: 1920px) {
+    .search .search-left span {
+        margin-right: 6%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .search .search-left span {
+        margin-right: 1%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .search .search-left span {
+        margin-right: 4px;
+    }
+
+    .agriculture .agriculture-c {
+        margin-right: 7.2px;
+    }
+}

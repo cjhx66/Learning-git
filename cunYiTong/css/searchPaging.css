@@ -1,0 +1,133 @@
+.content {
+    width: 71.8%;
+    margin: 0 auto;
+}
+
+.search {
+    height: 40px;
+    width: 100%;
+    margin: 15px 0 20px;
+}
+
+.search .search-left {
+    float: left;
+    font-family: AdobeHeitiStd-Regular;
+    font-size: 24px;
+    color: #333;
+    line-height: 40px;
+    width: 55%;
+}
+
+.search .search-right {
+    width: 45%;
+    float: right;
+    height: 100%;
+}
+
+.search .search-right .txt {
+    display: inline-block;
+    vertical-align: middle;
+    width: 82%;
+    height: 34px;
+    padding-left: 15px;
+    outline: none;
+    border: 3px solid #65B556;
+}
+
+.search .search-right .abtn {
+    display: inline-block;
+    vertical-align: middle;
+    width: 13%;
+    height: 100%;
+    margin-left: -1%;
+    background: url("../img/icon_sousuo.png") no-repeat #65B556 center;
+}
+
+.paging {
+    width: 65%;
+    margin: 35px auto 0;
+    font-size: 14px;
+    height: 35px;
+}
+
+.paging .page, .num {
+    border: 1px solid #cccccc;
+    padding: 1% 2%;
+}
+
+.paging .active {
+    border: 0;
+    color: red
+}
+
+.paging .act {
+    border: 0;
+}
+
+.paging .pagination {
+    /*padding-left: 20px;*/
+    padding-left: 1%;
+}
+
+.paging .small {
+    font-size: 12px;
+}
+
+.paging .small .num {
+    font-size: 14px;
+}
+
+.paging a {
+    display: inline-block;
+    border: 1px solid #cccccc;
+    width: 8%;
+    height: 96%;
+    margin-left: 1%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 32px;
+    color: black;
+}
+
+.paging .click {
+    background: #65b55b;
+    color: white;
+    border: 0;
+}
+
+
+@media screen and (max-width: 1920px) {
+    /*ËÑË÷¿ò*/
+    .search .search-right .txt {
+        width: 83.7%;
+    }
+    /*·ÖÒ³*/
+    .paging {
+        width: 44%;
+    }
+}
+@media screen and (max-width:1366px) {
+    /*ËÑË÷¿ò*/
+    .search .search-right .txt {
+        width: 82%;
+    }
+    .search .search-right .abtn {
+        margin-left: -1.2%;
+    }
+
+    /*·ÖÒ³*/
+    .paging {
+        width: 63%;
+    }
+}
+@media screen and (max-width:1280px) {
+    /*ËÑË÷¿ò*/
+    .search .search-right .txt{
+        width:81.7%;
+    }
+    /*·ÖÒ³*/
+    .paging {
+        width: 65%;
+    }
+}

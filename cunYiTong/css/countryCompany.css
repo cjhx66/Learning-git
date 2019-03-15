@@ -1,0 +1,72 @@
+.company {
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+.company .company-center {
+    border: 1px solid #eeeeee;
+    height: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.company .active {
+    border: 1px solid #65B556;
+}
+
+.company .cLast {
+    margin: 0;
+}
+
+.company-center img {
+    width: 34%;
+    max-width: 336px;
+    height: 100%;
+    float: left;
+}
+
+.company-center .companyC-right {
+    float: left;
+    width: 63%;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.companyC-right h2 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    font-family: AdobeHeitiStd-Regular;
+}
+
+.companyC-right p {
+    line-height: 28px;
+}
+
+.companyC-right a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: #65b55b;
+    color: white;
+    line-height: 30px;
+    float: right;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+@media screen and (max-width: 1920px) {
+    /*”“±ﬂµƒΩÈ…‹*/
+    .company-center .companyC-right {
+        width: 74.1%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .company-center .companyC-right {
+        width: 63%;
+    }
+}
